@@ -1,0 +1,108 @@
+  
+ 
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	<meta name="author" content="">
+	<title>Editar</title>
+ 
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/estilos.css" rel="stylesheet" type="text/css">
+ 
+  
+	<!-- jQuery (Bootstrap's JavaScript plugins) -->
+	<script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+  
+ 
+  <body>
+ 
+ <div class="container">
+  
+  <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+	<form role="form" method="post">
+<h2>Editar</h2>
+	<hr/>
+<div class="row">
+               
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                        <input type="text" name="nome" id="nome" class="form-control input-lg" placeholder="Primeiro nome" tabindex="1" >
+                     <div class="form-group">
+					
+</div>
+</div>
+	<div class="col-xs-6 col-sm-6 col-md-6">
+	<div class="form-group">
+                         <input type="text" name="apelido" id="apelido" class="form-control input-lg" placeholder="Último nome" tabindex="2"  >
+	</div>
+</div>
+	</div>
+             
+	<div class="form-group">
+	<input type="number" name="tlm" id="tlm" class="form-control input-lg" placeholder="Telemóvel" tabindex="3"  >
+	</div>
+	<div class="form-group">
+                  <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Endereço de Email" tabindex="4"  >
+	</div>
+	<div class="form-group">
+<input type="text" name="morada" id="morada" class="form-control input-lg" placeholder="Morada" tabindex="4"  >
+	</div>
+             
+            <div class="row">
+             <div class="col-xs-6 col-sm-6 col-md-6">                     <input type="text" name="codpostal" id="codpostal" class="form-control input-lg" placeholder="Código Postal" tabindex="4"  >
+                 <div class="form-group">
+	</div>
+	</div>
+            <div class="col-xs-6 col-sm-6 col-md-6"> 
+			<input type="text" name="localidade" id="localidade" class="form-control input-lg" placeholder="Localidade" tabindex="4"  >
+     <div class="form-group">      
+	</div>
+	</div>
+</div>
+             
+             <div class="form-group">
+                <input type="text" name="distrito" id="distrito" class="form-control input-lg" placeholder="Distrito" tabindex="4"  >
+              </div>
+              
+            
+	<hr/>
+	<div class="row">
+	<div class="col-xs-6 col-md-6">
+                  <button type="submit" value="gravar" name="gravar" class="btn btn-primary btn-block btn-lg" tabindex="7">Gravar</button>
+	</div>
+	</div>
+             
+	<div class="row">
+
+                        <div class= "col-xs-6 col-sm-6 col-md-6"	>
+	<div class= "form-group" >
+	<p><span  class= "alert-danger" ></span></p>
+</div>
+	        
+	</div>
+</div>  
+<input name="nome_temp" type="hidden" id="nome_temp" />  
+	<input name="apelido_temp" type="hidden" id="apelido_temp"  /> 
+	<input name="morada_temp" type="hidden" id="morada_temp" /> 
+	<input name="email_temp" type="hidden" id="email_temp"  />  
+	<input name="codpostal_temp" type="hidden" id="codpostal_temp"  />   
+	<input name="localidade_temp" type="hidden" id="localidade_temp" />  
+    <input name="distrito_temp" type="hidden" id="distrito_temp"  />  
+    <input name="tlm_temp" type="hidden" id="tlm_temp"  />             </form>
+	</div>
+	</div>
+  
+  </div>
+ 
+  
+
+  
+  </body>
+  
+ </html>
