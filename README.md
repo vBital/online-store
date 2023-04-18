@@ -3,3 +3,9 @@ https://projeto-redes-mod7.000webhostapp.com/index.php
 
 Requirements:
   - XAMPP Control Panel
+
+Languages:
+  - HTML;
+  - CSS;
+  - PhP;
+  - JavaScript.
